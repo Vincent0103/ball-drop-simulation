@@ -17,7 +17,7 @@ double getCurrentHeight(int seconds, int height) {
 }
 
 void printCurrentHeight(int seconds, double height) {
-  if (height <= 0) {
+  if (height <= 0.0) {
     std::cout << "At " << seconds << " seconds, the ball is on the ground.\n";
   } else {
     std::cout << "At " << seconds << " seconds, the ball is at height: ";
